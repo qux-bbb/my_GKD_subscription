@@ -5,11 +5,11 @@ import globalGroups from './globalGroups';
 
 export default defineGkdSubscription({
   id: 233,
-  name: 'Subscription',
+  name: 'qux-bbb Subscription',
   version: 0,
-  author: 'author',
+  author: 'qux-bbb',
   checkUpdateUrl: './gkd.version.json5',
-  supportUri: 'https://github.com/gkd-kit/subscription-template',
+  supportUri: 'https://github.com/qux-bbb/my_GKD_subscription/issues',
   categories,
   globalGroups,
   apps: await batchImportApps(`${import.meta.dirname}/apps`),
