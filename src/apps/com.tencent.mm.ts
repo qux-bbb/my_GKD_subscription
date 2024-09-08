@@ -598,7 +598,7 @@ export default defineGkdApp({
             '[text="不感兴趣" || text="与我无关" || text="感谢你的反馈"][visibleToUser=true]',
           ],
           matches:
-            '@[clickable=true][visibleToUser=true] > TextView[text="广告"][visibleToUser=true]', // 某些微信版本上该节点的`clickable=false`
+            '@[visibleToUser=true] > TextView[text="广告"][visibleToUser=true]', // 某些微信版本上该节点的`clickable=false`
           exampleUrls: [
             'https://e.gkd.li/e73bb653-cc79-455c-958b-38aff6687c37',
             'https://e.gkd.li/5915f80b-66b9-4441-9d36-3caa3fe1be58',
