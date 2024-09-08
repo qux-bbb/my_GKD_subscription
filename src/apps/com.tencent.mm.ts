@@ -619,7 +619,7 @@ export default defineGkdApp({
           preKeys: [0],
           key: 25,
           excludeMatches: '[text="感谢你的反馈"][visibleToUser=true]',
-          matches: '[text="不感兴趣"][clickable=true][visibleToUser=true]', // 为确保能够关闭尾部广告，此处点击“不感兴趣”而非“关闭此广告”
+          matches: '[text="不感兴趣"][visibleToUser=true]', // 为确保能够关闭尾部广告，此处点击“不感兴趣”而非“关闭此广告”
           snapshotUrls: [
             'https://i.gkd.li/i/16796666', // 内容尾部广告
             'https://i.gkd.li/i/16796729', // 内容中部广告
@@ -632,7 +632,7 @@ export default defineGkdApp({
           // 第三段
           preKeys: [25],
           key: 50,
-          matches: '[text="与我无关"][clickable=true][visibleToUser=true]',
+          matches: '[text="与我无关"][visibleToUser=true]',
           snapshotUrls: [
             'https://i.gkd.li/i/16796674', // 内容尾部广告
             'https://i.gkd.li/i/16796732', // 内容中部广告
