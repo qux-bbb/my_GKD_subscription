@@ -102,6 +102,12 @@ pnpm install --registry=https://registry.npmmirror.com
 https://raw.githubusercontent.com/username/subscription/main/dist/gkd.json5
 ```
 
+本订阅的地址如下：  
+```
+https://raw.githubusercontent.com/qux-bbb/my_GKD_subscription@main/dist/gkd.json5
+https://fastly.jsdelivr.net/gh/qux-bbb/my_GKD_subscription@main/dist/gkd.json5
+```
+
 ## 镜像加速
 
 raw.githubusercontent.com 在大陆的访问常常无法访问
